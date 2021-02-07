@@ -1,0 +1,127 @@
+body{
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    background-color: black;
+}
+
+.fondo{
+    margin-top: 75px;
+    position: absolute;
+    background-color: black;
+    width: 800px;
+    height: 800px;
+    border: 1px solid white;
+}
+
+.cara{
+    position: absolute;
+    left: 15px;
+    top: -12px;
+}
+
+
+.cabeza{
+    position: absolute;
+    display: block;
+    margin: 0 auto;
+    width: 600px;
+    height: 700px;
+    border: 12px solid white;
+    border-radius: 500px;
+    margin-left: 90px;
+    margin-top: 20px;
+    background-color: #303030;
+}  
+
+.caraint{
+    position: absolute;
+    display: block;
+    margin: 0 auto;
+    width: 583px;
+    height: 685px;
+    
+    border-radius: 500px;
+    margin-left: 1px;
+    background-color: #303030;
+} 
+
+.barbilla{
+    position: absolute;
+    display: block;
+    margin: 0 auto;
+    width: 550px;
+    height: 600px;
+    border-radius: 73% 57% 100% 47% / 48% 45% 100% 100%  ;
+    margin-left: 37px;
+    margin-top: 140px;
+    background-color: #303030;
+    transform: rotate(-22deg);
+
+}
+
+.circulogris{
+    position: absolute;
+    display: block;
+    margin: 0 auto;
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    margin-left: 100px;
+    margin-top: 100px;
+    background-color: #5d5d5d;
+
+}
+
+.flecha{
+    position: absolute;
+    display: block;
+    margin: 0 auto;
+    width: 130px;
+    height: 250px;
+    margin-left: 222px;
+    margin-top: 25px;
+    background-color: white;
+}
+
+.triangulo {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 150px 150px 0 150px;
+    border-color: #ffffff transparent transparent transparent;
+    margin-top: 230px;
+    margin-left: 137px;
+  }
+
+.ojoiz{
+    position: absolute;
+    display: block;
+    width: 110px;
+    height: 110px;
+    border-style: solid;
+    border-radius: 0% 100% 0% 100% / 15% 79% 21% 85%  ;
+    transform: rotate(-30deg);
+    border-color: white;
+    background-color: white;
+    margin-left:100px;
+    margin-top: -20px;
+
+}
+
+.ojode{
+    position: absolute;
+    display: block;
+    width: 110px;
+    height: 110px;
+    border-style: solid;
+    border-radius: 0% 100% 0% 100% / 15% 79% 21% 85%  ;
+    transform: rotate(307deg);
+    border-color: white;
+    background-color: white;
+    margin-left:350px;
+    margin-top: -20px;
+
+}
+
